@@ -1,0 +1,79 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "uploads"
+public_folder: "uploads"
+
+collections:
+  # ===== PHOTOGRAPHY =====
+  - name: "photography"
+    label: "Photography"
+    files:
+      - name: "photos"
+        label: "All Photos"
+        file: "content/photos.json"
+        fields:
+          - name: "photos"
+            label: "Photos"
+            label_singular: "Photo"
+            widget: "list"
+            fields:
+              - { name: "title", label: "Title", widget: "string" }
+              - name: "category"
+                label: "Category"
+                widget: "select"
+                options:
+                  - { label: "Nature", value: "nature" }
+                  - { label: "Photojournalism", value: "photojournalism" }
+                  - { label: "Travel", value: "travel" }
+              - { name: "image", label: "Photo", widget: "image" }
+              - { name: "description", label: "Description", widget: "text", required: false }
+              - { name: "date", label: "Date Taken", widget: "datetime", required: false }
+              - { name: "featured", label: "Featured on Homepage", widget: "boolean", default: false }
+
+  # ===== BELTWAY POLITICS =====
+  - name: "politics"
+    label: "Beltway Politics"
+    files:
+      - name: "articles"
+        label: "All Articles"
+        file: "content/articles.json"
+        fields:
+          - name: "articles"
+            label: "Articles"
+            label_singular: "Article"
+            widget: "list"
+            fields:
+              - { name: "title", label: "Headline", widget: "string" }
+              - { name: "publication", label: "Publication", widget: "string", hint: "e.g. The Washington Post, Politico, The Atlantic" }
+              - { name: "date", label: "Published Date", widget: "datetime" }
+              - { name: "excerpt", label: "Excerpt / Summary", widget: "text" }
+              - { name: "url", label: "Link to Article", widget: "string", required: false }
+              - { name: "image", label: "Cover Image", widget: "image", required: false }
+              - name: "tags"
+                label: "Tags"
+                widget: "list"
+                allow_add: true
+                required: false
+              - { name: "featured", label: "Featured Article", widget: "boolean", default: false }
+
+  # ===== WELLINGTON LIFE =====
+  - name: "wellington"
+    label: "Wellington Life"
+    files:
+      - name: "posts"
+        label: "All Stories"
+        file: "content/wellington.json"
+        fields:
+          - name: "posts"
+            label: "Stories"
+            label_singular: "Story"
+            widget: "list"
+            fields:
+              - { name: "title", label: "Title", widget: "string" }
+              - { name: "date", label: "Date", widget: "datetime" }
+              - { name: "excerpt", label: "Excerpt", widget: "text" }
+              - { name: "body", label: "Full Story", widget: "markdown", required: false }
+              - { name: "image", label: "Cover Image", widget: "image", required: false }
+              - { name: "featured", label: "Featured Story", widget: "boolean", default: false }

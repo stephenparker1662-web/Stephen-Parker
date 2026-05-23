@@ -1,0 +1,52 @@
+{
+  "photos": [
+    {
+      "title": "Tararua Dawn",
+      "category": "nature",
+      "image": "",
+      "description": "First light breaking over the Tararua Range, viewed from the Remutaka Hill Road.",
+      "date": "2025-09-12",
+      "featured": true
+    },
+    {
+      "title": "Wellington Waterfront, Midwinter",
+      "category": "travel",
+      "image": "",
+      "description": "The Lambton Harbour at dusk on the shortest day of the year.",
+      "date": "2025-06-21",
+      "featured": false
+    },
+    {
+      "title": "Capitol Steps",
+      "category": "photojournalism",
+      "image": "",
+      "description": "Protestors gather on the steps of the U.S. Capitol during a budget debate.",
+      "date": "2025-03-04",
+      "featured": false
+    },
+    {
+      "title": "Coromandel Coast",
+      "category": "nature",
+      "image": "",
+      "description": "The dramatic coastline north of Whitianga at low tide.",
+      "date": "2025-01-18",
+      "featured": false
+    },
+    {
+      "title": "Press Briefing Room",
+      "category": "photojournalism",
+      "image": "",
+      "description": "An empty White House briefing room before the morning gaggle.",
+      "date": "2025-02-10",
+      "featured": false
+    },
+    {
+      "title": "Night Ferry, Wellington Harbour",
+      "category": "travel",
+      "image": "",
+      "description": "The Interislander ferry departing for Picton under a full moon.",
+      "date": "2025-07-30",
+      "featured": false
+    }
+  ]
+}

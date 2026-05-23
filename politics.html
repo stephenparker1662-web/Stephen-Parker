@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Beltway Politics — Stephen Parker</title>
+  <meta name="description" content="Political journalism and analysis on Washington DC beltway politics by Stephen Parker.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .politics-banner {
+      background: var(--gold);
+      padding: 0.5rem 0;
+      text-align: center;
+      position: fixed;
+      top: var(--nav-height);
+      left: 0; right: 0;
+      z-index: 900;
+    }
+    .politics-banner p {
+      font-size: 0.6rem;
+      letter-spacing: 0.32em;
+      text-transform: uppercase;
+      color: #080808;
+      font-weight: 600;
+    }
+    .politics-page-hero {
+      padding: calc(var(--nav-height) + 3.5rem + 28px) 0 4rem;
+      border-bottom: 3px solid var(--gold);
+      background: var(--surface);
+    }
+    .politics-page-hero .kicker {
+      font-size: 0.62rem;
+      letter-spacing: 0.42em;
+      text-transform: uppercase;
+      color: var(--gold);
+      display: block;
+      margin-bottom: 0.75rem;
+    }
+    .politics-page-hero h1 { color: var(--text); margin-bottom: 0.75rem; }
+    .politics-page-hero p { max-width: 62ch; font-size: 1rem; }
+    .byline-bar {
+      display: flex;
+      align-items: center;
+      gap: 2rem;
+      margin-top: 2rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--border-light);
+      flex-wrap: wrap;
+    }
+    .byline-item {
+      font-size: 0.68rem;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--text-dim);
+    }
+    .byline-item strong { color: var(--text-muted); font-weight: 500; }
+  </style>
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <nav class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__logo">
+        Stephen Parker
+        <span>Photographer &amp; Journalist</span>
+      </a>
+      <ul class="nav__links" id="navLinks">
+        <li><a href="index.html" class="nav__link">Home</a></li>
+        <li><a href="photography.html" class="nav__link">Photography</a></li>
+        <li><a href="wellington.html" class="nav__link">Wellington</a></li>
+        <li><a href="politics.html" class="nav__link active">Politics</a></li>
+        <li><a href="about.html" class="nav__link">About</a></li>
+      </ul>
+      <button class="nav__toggle" id="navToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- TICKER BANNER -->
+  <div class="politics-banner">
+    <p>Beltway Politics &nbsp;·&nbsp; Reporting from Washington, D.C.</p>
+  </div>
+
+  <!-- PAGE HERO -->
+  <header class="politics-page-hero">
+    <div class="container">
+      <span class="kicker">Inside the Beltway</span>
+      <h1>Beltway Politics</h1>
+      <p>
+        Journalism, analysis, and reporting on Washington's power corridors —
+        Congress, the White House, and the machinery of American governance.
+      </p>
+      <div class="byline-bar">
+        <span class="byline-item">By <strong>Stephen Parker</strong></span>
+        <span class="byline-item">Beat &mdash; <strong>U.S. Politics &amp; Policy</strong></span>
+        <span class="byline-item">Based in <strong>Wellington, NZ</strong></span>
+      </div>
+    </div>
+  </header>
+
+  <!-- FEATURED ARTICLE -->
+  <section class="page-content">
+    <div class="container">
+      <div class="featured-article fade-in" id="featuredArticle">
+        <div class="loading" style="grid-column:1/-1">Loading featured article&hellip;</div>
+      </div>
+
+      <!-- MORE ARTICLES -->
+      <div class="section-header">
+        <span class="section-header__eyebrow">More Writing</span>
+        <h2 class="section-header__title">Recent Articles</h2>
+      </div>
+      <div class="articles-grid fade-in" id="articlesGrid"></div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div>
+          <div class="footer__logo">Stephen Parker</div>
+          <div class="footer__copy">&copy; <span id="year"></span> Stephen Parker. All rights reserved.</div>
+        </div>
+        <nav class="footer__links">
+          <a href="photography.html" class="footer__link">Photography</a>
+          <a href="wellington.html" class="footer__link">Wellington</a>
+          <a href="politics.html" class="footer__link">Politics</a>
+          <a href="about.html" class="footer__link">About</a>
+        </nav>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/articles.js"></script>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

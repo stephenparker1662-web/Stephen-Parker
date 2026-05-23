@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wellington Life — Stephen Parker</title>
+  <meta name="description" content="Stories and photography from Wellington, New Zealand by Stephen Parker.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <nav class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__logo">
+        Stephen Parker
+        <span>Photographer &amp; Journalist</span>
+      </a>
+      <ul class="nav__links" id="navLinks">
+        <li><a href="index.html" class="nav__link">Home</a></li>
+        <li><a href="photography.html" class="nav__link">Photography</a></li>
+        <li><a href="wellington.html" class="nav__link active">Wellington</a></li>
+        <li><a href="politics.html" class="nav__link">Politics</a></li>
+        <li><a href="about.html" class="nav__link">About</a></li>
+      </ul>
+      <button class="nav__toggle" id="navToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- PAGE HERO -->
+  <header class="page-hero">
+    <div class="container">
+      <span class="page-hero__eyebrow">Life at the Edge of the World</span>
+      <h1 class="page-hero__title">Wellington</h1>
+      <p class="page-hero__desc">
+        The harbour, the hills, the wind, the culture — life in one of the world's most liveable cities, documented through words and images.
+      </p>
+    </div>
+  </header>
+
+  <!-- WELLINGTON STORIES -->
+  <section class="page-content">
+    <div class="container">
+      <!-- Featured top two posts -->
+      <div class="wellington-featured fade-in" id="wellingtonFeatured">
+        <div class="loading">Loading stories&hellip;</div>
+      </div>
+      <!-- Remaining grid -->
+      <div class="wellington-grid fade-in" id="wellingtonGrid"></div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div>
+          <div class="footer__logo">Stephen Parker</div>
+          <div class="footer__copy">&copy; <span id="year"></span> Stephen Parker. All rights reserved.</div>
+        </div>
+        <nav class="footer__links">
+          <a href="photography.html" class="footer__link">Photography</a>
+          <a href="wellington.html" class="footer__link">Wellington</a>
+          <a href="politics.html" class="footer__link">Politics</a>
+          <a href="about.html" class="footer__link">About</a>
+        </nav>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/articles.js"></script>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+{
+  "posts": [
+    {
+      "title": "A City That Earns Its Reputation",
+      "date": "2025-10-01",
+      "excerpt": "Wellington's wind has a personality. It arrives without warning, rearranges your plans, and then disappears, leaving behind a harbour that looks like it was painted. You either make peace with it or you leave.",
+      "body": "Wellington's wind has a personality. It arrives without warning, rearranges your plans, and then disappears, leaving behind a harbour that looks like it was painted. You either make peace with it or you leave.\n\nI made peace with it.",
+      "image": "",
+      "featured": true
+    },
+    {
+      "title": "The Cuba Street Ritual",
+      "date": "2025-09-14",
+      "excerpt": "On any given Saturday morning, Cuba Street is a village. The same faces appear at the same tables, the same arguments about the same films, the same flat whites going cold while someone makes a point about local government.",
+      "body": "",
+      "image": "",
+      "featured": false
+    },
+    {
+      "title": "Mount Victoria at Dusk",
+      "date": "2025-08-22",
+      "excerpt": "From the top of Mount Vic you can see everything — the harbour, the Hutt Valley, the Remutakas on clear days, and on truly clear days, the South Island. It is impossible to be up there and feel like your problems are large.",
+      "body": "",
+      "image": "",
+      "featured": false
+    },
+    {
+      "title": "The Museum in Winter",
+      "date": "2025-07-05",
+      "excerpt": "Te Papa in winter is a different building. The tourists are mostly gone. The locals have it back. Children run through the Gallipoli exhibition and ask questions their grandparents can't fully answer.",
+      "body": "",
+      "image": "",
+      "featured": false
+    },
+    {
+      "title": "Storm Season",
+      "date": "2025-06-10",
+      "excerpt": "The southerlies came early this year. Three days of horizontal rain, ferries cancelled, the waterfront deserted. And then — as always — a morning so still and so bright it made the whole thing worth it.",
+      "body": "",
+      "image": "",
+      "featured": false
+    }
+  ]
+}
