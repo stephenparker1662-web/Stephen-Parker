@@ -3,7 +3,7 @@
     {
       "title": "Tararua Dawn",
       "category": "nature",
-      "image": "",
+      "image": "https://photos.google.com/album/AF1QipMUZyaSBcL-WHgOJ06Dk8yM-dqmFOsBoblf4KM/photo/AF1QipMOoSEtz_UthowHCquh_h7KSEip0hSipQ15_eI",
       "description": "First light breaking over the Tararua Range, viewed from the Remutaka Hill Road.",
       "date": "2025-09-12",
       "featured": true
@@ -11,7 +11,7 @@
     {
       "title": "Wellington Waterfront, Midwinter",
       "category": "travel",
-      "image": "",
+      "image": "https://photos.google.com/album/AF1QipMUZyaSBcL-WHgOJ06Dk8yM-dqmFOsBoblf4KM/photo/AF1QipNK9tmm35l_T7JUSdztu4ocRJucl6x4Gz1sRWg",
       "description": "The Lambton Harbour at dusk on the shortest day of the year.",
       "date": "2025-06-21",
       "featured": false
@@ -19,7 +19,7 @@
     {
       "title": "Capitol Steps",
       "category": "photojournalism",
-      "image": "",
+      "image": "https://photos.google.com/album/AF1QipMUZyaSBcL-WHgOJ06Dk8yM-dqmFOsBoblf4KM/photo/AF1QipPljvhdHEZvIXT1At_HbZyJdic7Heai7XYqKCQ",
       "description": "Protestors gather on the steps of the U.S. Capitol during a budget debate.",
       "date": "2025-03-04",
       "featured": false
@@ -27,7 +27,7 @@
     {
       "title": "Coromandel Coast",
       "category": "nature",
-      "image": "",
+      "image": "https://photos.google.com/album/AF1QipMUZyaSBcL-WHgOJ06Dk8yM-dqmFOsBoblf4KM/photo/AF1QipP4svP-AYb7cXqvYaI1Bu8pZo3uthlJ9BLEzrU",
       "description": "The dramatic coastline north of Whitianga at low tide.",
       "date": "2025-01-18",
       "featured": false
@@ -35,7 +35,7 @@
     {
       "title": "Press Briefing Room",
       "category": "photojournalism",
-      "image": "",
+      "image": "https://photos.google.com/album/AF1QipMUZyaSBcL-WHgOJ06Dk8yM-dqmFOsBoblf4KM/photo/AF1QipNeOSoN9tQ6eD15s6VeyDoY5O5akbQ7N2ZKwuc",
       "description": "An empty White House briefing room before the morning gaggle.",
       "date": "2025-02-10",
       "featured": false
@@ -43,10 +43,29 @@
     {
       "title": "Night Ferry, Wellington Harbour",
       "category": "travel",
-      "image": "",
+      "image": "https://photos.google.com/album/AF1QipMUZyaSBcL-WHgOJ06Dk8yM-dqmFOsBoblf4KM/photo/AF1QipMlfkDDTgpkxmaWPCGzomOuGjiMzZPbdiDt39U",
       "description": "The Interislander ferry departing for Picton under a full moon.",
       "date": "2025-07-30",
       "featured": false
+    },
+    {
+      "featured": false,
+      "image": "https://photos.google.com/album/AF1QipP83t-NDKJf8Yua-FdrnZdaJfhLaEVYPoBg2zQ/photo/AF1QipOMVoIC4-iyCEbipQlaZGCTHvtFvJzosNkDS4w",
+      "title": "Afghanistan   Visit to Bamyian",
+      "description": "Walking to the top of PT hill ",
+      "category": "photojournalism"
+    },
+    {
+      "featured": false,
+      "image": "https://photos.google.com/album/AF1QipP83t-NDKJf8Yua-FdrnZdaJfhLaEVYPoBg2zQ/photo/AF1QipMxYAsaXgKLz9PACtu3_QLDSs568pCR2ianBdo",
+      "category": "photojournalism",
+      "title": "Curious kids Bamyian"
+    },
+    {
+      "featured": false,
+      "image": "https://photos.google.com/album/AF1QipMUZyaSBcL-WHgOJ06Dk8yM-dqmFOsBoblf4KM/photo/AF1QipNcAFXbNYq5kvJd-KMtfy2b_xENSqYU1L-GpBo",
+      "category": "nature",
+      "title": "Dawn"
     }
   ]
 }
