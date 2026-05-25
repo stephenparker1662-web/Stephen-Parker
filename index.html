@@ -71,22 +71,6 @@
     </div>
   </div>
 
-  <!-- WELLINGTON PREVIEW -->
-  <div class="preview-section">
-    <div class="container">
-      <div class="section-header section-header--split">
-        <div>
-          <span class="section-header__eyebrow">Life at the Edge of the World</span>
-          <h2 class="section-header__title">Wellington</h2>
-        </div>
-        <a href="wellington.html" class="btn btn--ghost">View All &rarr;</a>
-      </div>
-      <div class="articles-grid fade-in" id="homepageWellington">
-        <div class="loading">Loading stories&hellip;</div>
-      </div>
-    </div>
-  </div>
-
   <!-- POLITICS PREVIEW -->
   <div class="preview-section">
     <div class="container">
@@ -103,6 +87,22 @@
     </div>
   </div>
 
+  <!-- ADVENTURE PREVIEW -->
+  <div class="preview-section">
+    <div class="container">
+      <div class="section-header section-header--split">
+        <div>
+          <span class="section-header__eyebrow">Beyond the Horizon</span>
+          <h2 class="section-header__title">Adventure</h2>
+        </div>
+        <a href="adventure.html" class="btn btn--ghost">View All &rarr;</a>
+      </div>
+      <div class="preview-grid fade-in" id="homepageAdventure">
+        <div class="loading">Loading adventures&hellip;</div>
+      </div>
+    </div>
+  </div>
+
   <!-- FOOTER -->
   <footer class="footer">
     <div class="container">
@@ -113,8 +113,9 @@
         </div>
         <nav class="footer__links">
           <a href="photography.html" class="footer__link">Photography</a>
-          <a href="wellington.html" class="footer__link">Wellington</a>
           <a href="politics.html" class="footer__link">Politics</a>
+          <a href="wellington.html" class="footer__link">Wellington</a>
+          <a href="adventure.html" class="footer__link">Adventure</a>
           <a href="about.html" class="footer__link">About</a>
         </nav>
       </div>
@@ -145,16 +146,26 @@
         </div>`).join('');
     }
 
-    // Homepage Wellington previews (first 3 posts)
-    async function loadHomepageWellington() {
-      const data = await fetchContent('content/wellington.json');
-      const el = document.getElementById('homepageWellington');
-      if (!data || !data.posts || !data.posts.length) {
-        el.innerHTML = emptyState('No stories yet', 'Add stories via the admin panel.');
+    // Homepage Adventure previews (first 3 travel photos)
+    async function loadHomepageAdventure() {
+      const data = await fetchContent('content/photos.json');
+      const el = document.getElementById('homepageAdventure');
+      if (!data || !data.photos || !data.photos.length) {
+        el.innerHTML = emptyState('No adventure photos yet', 'Add photos via the admin panel.');
         return;
       }
-      const items = data.posts.slice(0, 3);
-      el.innerHTML = items.map(p => renderArticleCard(p, false)).join('');
+      const items = data.photos.filter(p => p.category === 'travel').slice(0, 3);
+      if (!items.length) {
+        el.innerHTML = emptyState('No travel photos yet', 'Add photos with category Travel via the admin panel.');
+        return;
+      }
+      el.innerHTML = items.map(p => `
+        <div class="preview-photo">
+          <img src="${p.image || 'https://picsum.photos/seed/' + encodeURIComponent(p.title) + '/600/800'}" alt="${p.title}" loading="lazy">
+          <div class="preview-photo__overlay">
+            <span class="preview-photo__title">${p.title}</span>
+          </div>
+        </div>`).join('');
     }
 
     // Homepage Politics previews (first 3 articles)
@@ -170,8 +181,8 @@
     }
 
     loadHomepagePhotos();
-    loadHomepageWellington();
     loadHomepageArticles();
+    loadHomepageAdventure();
   </script>
 </body>
 </html>
