@@ -77,3 +77,25 @@ collections:
               - { name: "body", label: "Full Story", widget: "markdown", required: false }
               - { name: "image", label: "Cover Image", widget: "image", required: false }
               - { name: "featured", label: "Featured Story", widget: "boolean", default: false }
+
+  # ===== ADVENTURE =====
+  - name: "adventure"
+    label: "Adventure"
+    files:
+      - name: "posts"
+        label: "All Adventure Stories"
+        file: "content/adventure.json"
+        fields:
+          - name: "posts"
+            label: "Stories"
+            label_singular: "Story"
+            widget: "list"
+            fields:
+              - { name: "title", label: "Title", widget: "string" }
+              - { name: "date", label: "Date", widget: "datetime" }
+              - { name: "excerpt", label: "Excerpt", widget: "text" }
+              - { name: "body", label: "Full Story", widget: "markdown", required: false }
+              - { name: "image", label: "Cover Image", widget: "image", required: false }
+              - { name: "publication", label: "Publication (if published elsewhere)", widget: "string", required: false }
+              - { name: "url", label: "Link to Article", widget: "string", required: false }
+              - { name: "featured", label: "Featured Story", widget: "boolean", default: false }
