@@ -429,7 +429,7 @@ section { padding: 7rem 0; }
 @media (max-width: 900px) { .preview-grid { grid-template-columns: repeat(2,1fr); } }
 @media (max-width: 580px) { .preview-grid { grid-template-columns: 1fr; } }
 .preview-photo {
-  aspect-ratio: 3/4; overflow: hidden;
+  aspect-ratio: 16/9; overflow: hidden;
   position: relative; background: var(--surface); cursor: pointer;
 }
 .preview-photo img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.5s ease; }
