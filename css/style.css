@@ -238,21 +238,25 @@ section { padding: 7rem 0; }
   background: var(--gold); color: #080808; border-color: var(--gold);
 }
 
-/* ===== PHOTO GRID (masonry) ===== */
-.photo-grid { columns: 3; column-gap: 1rem; }
-@media (max-width: 1024px) { .photo-grid { columns: 2; } }
-@media (max-width: 580px) { .photo-grid { columns: 1; } }
+/* ===== PHOTO GRID (landscape) ===== */
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+@media (max-width: 1024px) { .photo-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 580px) { .photo-grid { grid-template-columns: 1fr; } }
 
 .photo-card {
-  break-inside: avoid; margin-bottom: 1rem;
   position: relative; overflow: hidden; cursor: pointer;
   background: var(--surface);
 }
 .photo-card__img {
   width: 100%; display: block;
+  aspect-ratio: 16/9;
+  object-fit: cover;
   transition: transform 0.55s ease;
   background: var(--surface-2);
-  min-height: 200px;
 }
 .photo-card__overlay {
   position: absolute; inset: 0;
