@@ -4,7 +4,7 @@
       "title": "Tui in the garden",
       "category": "nature",
       "image": "uploads/_s8a6815.jpg",
-      "description": "First light breaking over the Tararua Range, viewed from the Remutaka Hill Road.",
+      "description": "A Wellington garden experiencing a widlife resurgence. A very Wellington experience.",
       "date": "2025-09-12",
       "featured": true
     },
@@ -20,7 +20,7 @@
       "title": "Parliament Covid riot",
       "category": "photojournalism",
       "image": "uploads/dsc03136.jpg",
-      "description": "",
+      "description": "The long running anti vax protest at the NZ Parliament ends in riot.",
       "date": "2025-03-04",
       "featured": true
     },
@@ -28,7 +28,7 @@
       "title": "Prime Minister in the Cook Islands",
       "category": "photojournalism",
       "image": "uploads/img_0525.heic",
-      "description": "The dramatic coastline north of Whitianga at low tide.",
+      "description": "Special House of Ariki ceremony in the Cook Islands for Prime Minister Jacinda Ardern.",
       "date": "2025-01-18",
       "featured": false
     },
@@ -36,7 +36,7 @@
       "title": "Jono arrives in Wellington and finishes North Island swim",
       "category": "photojournalism",
       "image": "uploads/_s8a8524-edit.jpg",
-      "description": "An empty White House briefing room before the morning gaggle.",
+      "description": "Jono Ridler  swam the length of the North Island to bring his protest to the Capital.",
       "date": "2025-02-10",
       "featured": false
     },
@@ -44,7 +44,7 @@
       "title": "Dolphins,  Cook Strait",
       "category": "nature",
       "image": "uploads/img_3273.dng",
-      "description": "The Interislander ferry departing for Picton under a full moon.",
+      "description": "Dolphin escort on a pristine day as we take our yacht to the South Island.",
       "date": "2025-07-30",
       "featured": false
     },
@@ -52,20 +52,22 @@
       "featured": false,
       "image": "uploads/j4912x3264-13349.jpg",
       "title": "Afghanistan   Visit to Bamyian",
-      "description": "Haka at the camp in Bamyian",
+      "description": "Haka at the camp in  Bamyian, Afghanstan.  Another work trip to kiwi base.",
       "category": "photojournalism"
     },
     {
       "featured": false,
       "image": "uploads/img_8393.jpg",
       "category": "travel",
-      "title": "The Dolomites, Italy"
+      "title": "The Dolomites, Italy",
+      "description": "Mountain biking in the Dolomites, Northern Italy."
     },
     {
       "featured": false,
       "image": "uploads/img_2990.heic",
       "category": "travel",
-      "title": "Pristine snow, Tasman Glacier, Mount Cook"
+      "title": "Pristine snow, Tasman Glacier, Mount Cook",
+      "description": "Skiing the remarkable and untouched Tasman Glacier during Covid lockdown and without any international visitors.  An unrepeatable set of circumstances."
     }
   ]
 }
