@@ -99,3 +99,29 @@ collections:
               - { name: "publication", label: "Publication (if published elsewhere)", widget: "string", required: false }
               - { name: "url", label: "Link to Article", widget: "string", required: false }
               - { name: "featured", label: "Featured Story", widget: "boolean", default: false }
+
+  # ===== NZ MEDIA =====
+  - name: "nzmedia"
+    label: "NZ Media"
+    files:
+      - name: "articles"
+        label: "All NZ Media Articles"
+        file: "content/nzmedia.json"
+        fields:
+          - name: "articles"
+            label: "Articles"
+            label_singular: "Article"
+            widget: "list"
+            fields:
+              - { name: "title", label: "Headline", widget: "string" }
+              - { name: "publication", label: "Publication", widget: "string", default: "Newsroom" }
+              - { name: "date", label: "Published Date", widget: "datetime" }
+              - { name: "excerpt", label: "Excerpt / Summary", widget: "text" }
+              - { name: "url", label: "Link to Article", widget: "string", required: false }
+              - { name: "image", label: "Cover Image", widget: "image", required: false }
+              - name: "tags"
+                label: "Tags"
+                widget: "list"
+                allow_add: true
+                required: false
+              - { name: "featured", label: "Featured Article", widget: "boolean", default: false }

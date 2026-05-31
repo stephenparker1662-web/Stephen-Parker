@@ -1,0 +1,124 @@
+{
+  "articles": [
+    {
+      "title": "TVNZ/RNZ merger: Who holds the cards?",
+      "publication": "Newsroom",
+      "date": "2021-03-15",
+      "excerpt": "Strengthening public interest media would be complicated and potentially costly. As the government signals it wants to act, the question is who determines the shape of any new public media entity.",
+      "url": "https://newsroom.co.nz/2021/03/15/tvnz-rnz-merger-who-holds-the-cards/",
+      "image": "",
+      "tags": ["TVNZ", "RNZ", "Public Broadcasting", "Media Policy"],
+      "featured": true
+    },
+    {
+      "title": "Social platforms should be captured in new media regulations",
+      "publication": "Newsroom",
+      "date": "2021-04-11",
+      "excerpt": "Officials recommend social media platforms be brought under new media regulations as the government considers a sweeping overhaul of New Zealand's broadcasting framework.",
+      "url": "https://newsroom.co.nz/2021/04/11/media-regs-to-capture-social-platforms/",
+      "image": "",
+      "tags": ["Social Media", "Regulation", "Media Policy"],
+      "featured": false
+    },
+    {
+      "title": "The good, bad and awkward of the new public interest media fund",
+      "publication": "Newsroom",
+      "date": "2021-04-18",
+      "excerpt": "Government funding of reporters in private sector news is ramping up. The scheme could become a headache for media companies when the tap is turned off.",
+      "url": "https://newsroom.co.nz/2021/04/18/good-bad-awkward-of-taxpayer-dollars-for-media/",
+      "image": "",
+      "tags": ["Public Interest Journalism Fund", "Media Funding", "Policy"],
+      "featured": false
+    },
+    {
+      "title": "RNZ won't be swallowed in state media shake-up",
+      "publication": "Newsroom",
+      "date": "2021-05-17",
+      "excerpt": "Radio NZ marks its 100th anniversary as it quietly adopts techniques used in commercial media to reverse its ratings slide — and as its future becomes the subject of intense political debate.",
+      "url": "https://newsroom.co.nz/2021/05/17/rnz-wont-be-swallowed-in-state-media-shake-up/",
+      "image": "",
+      "tags": ["RNZ", "Public Broadcasting", "Media"],
+      "featured": false
+    },
+    {
+      "title": "Closed door sessions shape public charter for RNZ and TVNZ",
+      "publication": "Newsroom",
+      "date": "2021-07-20",
+      "excerpt": "Behind closed doors, media executives and officials have been working through the principles that would underpin a new public media charter. What emerged may surprise those expecting a radical break.",
+      "url": "https://newsroom.co.nz/2021/07/20/closed-door-sessions-shape-public-charter-for-rnz-and-tvnz/",
+      "image": "",
+      "tags": ["RNZ", "TVNZ", "Public Charter", "Broadcasting"],
+      "featured": false
+    },
+    {
+      "title": "Govt wants ambitious audience growth at RNZ",
+      "publication": "Newsroom",
+      "date": "2021-08-02",
+      "excerpt": "Documents obtained under the Official Information Act reveal the Broadcasting Minister nudged RNZ to set more challenging audience targets — just as audiences were shrinking at RNZ National.",
+      "url": "https://newsroom.co.nz/2021/08/02/govt-wants-rnz-to-up-its-game/",
+      "image": "",
+      "tags": ["RNZ", "Broadcasting", "Government", "OIA"],
+      "featured": false
+    },
+    {
+      "title": "Money for media a political risk",
+      "publication": "Newsroom",
+      "date": "2021-10-04",
+      "excerpt": "Government funding for journalism looks generous — until you look at what other countries spend. But the political risks of being seen to fund the media that covers you are real and growing.",
+      "url": "https://newsroom.co.nz/2021/10/04/money-for-media-a-political-risk/",
+      "image": "",
+      "tags": ["Media Funding", "Journalism", "Politics"],
+      "featured": false
+    },
+    {
+      "title": "Cabinet delays decision on new public broadcaster",
+      "publication": "Newsroom",
+      "date": "2021-11-02",
+      "excerpt": "Cabinet has delayed its decision on the proposed merger of TVNZ and RNZ, as ministers work through the financial and structural implications of creating a new public media entity.",
+      "url": "https://newsroom.co.nz/2021/11/02/cabinet-delays-tvnz-rnz-merger-decision/",
+      "image": "",
+      "tags": ["TVNZ", "RNZ", "Merger", "Cabinet"],
+      "featured": false
+    },
+    {
+      "title": "Corin and Susie get chatty in the mornings",
+      "publication": "Newsroom",
+      "date": "2021-11-18",
+      "excerpt": "RNZ's morning show is getting a new look and a new format. What does the shake-up mean for public radio's flagship programme — and for the listeners who rely on it?",
+      "url": "https://newsroom.co.nz/2021/11/18/corin-and-susie-get-chatty-in-the-mornings/",
+      "image": "",
+      "tags": ["RNZ", "Morning Report", "Broadcasting"],
+      "featured": false
+    },
+    {
+      "title": "Change won't come fast for new public media entity",
+      "publication": "Newsroom",
+      "date": "2022-01-01",
+      "excerpt": "Even if the government gives the green light to a merged public broadcaster, the transition will take years. The question is whether the political will lasts long enough to see it through.",
+      "url": "https://www.newsroom.co.nz/change-wont-come-fast-for-new-public-media-entity",
+      "image": "",
+      "tags": ["Public Media", "Broadcasting", "TVNZ", "RNZ"],
+      "featured": false
+    },
+    {
+      "title": "The media industry — what to look for in 2022",
+      "publication": "Newsroom",
+      "date": "2022-01-13",
+      "excerpt": "From the fate of the TVNZ-RNZ merger to the future of the Public Interest Journalism Fund — the key questions facing New Zealand's media players and how they might respond.",
+      "url": "https://newsroom.co.nz/2022/01/13/the-media-industry-what-to-look-for-in-2022/",
+      "image": "",
+      "tags": ["Media Industry", "2022", "Broadcasting", "Journalism"],
+      "featured": false
+    },
+    {
+      "title": "Hunt underway for next TVNZ chief executive",
+      "publication": "Newsroom",
+      "date": "2022-02-01",
+      "excerpt": "Finding a top candidate for the TVNZ chief executive role might be hard while the broadcaster's future remains undecided. The board is looking anyway.",
+      "url": "https://www.newsroom.co.nz/hunt-underway-for-next-tvnz-chief-executive",
+      "image": "",
+      "tags": ["TVNZ", "Leadership", "Broadcasting"],
+      "featured": false
+    }
+  ]
+}
