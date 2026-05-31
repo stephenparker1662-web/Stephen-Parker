@@ -238,23 +238,22 @@ section { padding: 7rem 0; }
   background: var(--gold); color: #080808; border-color: var(--gold);
 }
 
-/* ===== PHOTO GRID (landscape) ===== */
+/* ===== PHOTO GRID (masonry mosaic) ===== */
 .photo-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1rem;
+  columns: 3;
+  column-gap: 0.75rem;
 }
-@media (max-width: 1024px) { .photo-grid { grid-template-columns: repeat(2, 1fr); } }
-@media (max-width: 580px) { .photo-grid { grid-template-columns: 1fr; } }
+@media (max-width: 1024px) { .photo-grid { columns: 2; } }
+@media (max-width: 580px)  { .photo-grid { columns: 1; } }
 
 .photo-card {
+  break-inside: avoid;
+  margin-bottom: 0.75rem;
   position: relative; overflow: hidden; cursor: pointer;
   background: var(--surface);
 }
 .photo-card__img {
-  width: 100%; display: block;
-  aspect-ratio: 16/9;
-  object-fit: cover;
+  width: 100%; height: auto; display: block;
   transition: transform 0.55s ease;
   background: var(--surface-2);
 }
