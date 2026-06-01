@@ -138,6 +138,9 @@ p { line-height: 1.75; color: var(--text-muted); }
 .hero__content {
   position: relative; z-index: 1;
   padding-top: var(--nav-height);
+  max-width: 600px;
+  margin-left: 4rem;
+  margin-right: auto;
 }
 .hero__eyebrow {
   display: inline-block; font-size: 0.68rem;
