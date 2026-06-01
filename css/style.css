@@ -126,7 +126,7 @@ p { line-height: 1.75; color: var(--text-muted); }
 }
 .hero__bg {
   position: absolute; inset: 0;
-  background-image: url('uploads/dsc03136.jpg');
+  background-image: url('../uploads/dsc03136.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
