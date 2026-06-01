@@ -113,6 +113,13 @@ if (lightbox) {
         renderGrid(filtered);
       });
     });
+
+    // Auto-activate filter from URL hash (e.g. #photojournalism or #nature)
+    const hash = window.location.hash.replace('#', '').toLowerCase();
+    if (hash) {
+      const matchBtn = filterBar.querySelector(`[data-cat="${hash}"]`);
+      if (matchBtn) matchBtn.click();
+    }
   }
 
   // ===== LOAD PHOTOS =====
