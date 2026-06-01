@@ -533,6 +533,31 @@ section { padding: 7rem 0; }
   text-transform: uppercase; color: #080808; font-weight: 600;
 }
 
+/* ===== NZ MEDIA LINK BLOCK ===== */
+.nzmedia-link-block {
+  margin-top: 4rem;
+  border-top: 1px solid var(--border-light);
+  padding-top: 3rem;
+}
+.nzmedia-link-block__inner {
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 2rem; flex-wrap: wrap;
+  background: var(--surface);
+  border-left: 3px solid var(--gold);
+  padding: 2rem 2.5rem;
+}
+.nzmedia-link-block__eyebrow {
+  display: block; font-size: 0.6rem; letter-spacing: 0.3em;
+  text-transform: uppercase; color: var(--gold); margin-bottom: 0.5rem;
+}
+.nzmedia-link-block__title {
+  font-family: var(--serif); font-size: 1.5rem;
+  color: var(--text); margin-bottom: 0.5rem;
+}
+.nzmedia-link-block__desc {
+  font-size: 0.9rem; color: var(--text-muted); max-width: 52ch;
+}
+
 /* ===== RESPONSIVE ===== */
 @media (max-width: 768px) {
   section { padding: 4rem 0; }
