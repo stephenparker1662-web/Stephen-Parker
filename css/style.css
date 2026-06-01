@@ -533,6 +533,43 @@ section { padding: 7rem 0; }
   text-transform: uppercase; color: #080808; font-weight: 600;
 }
 
+/* ===== BIO INTRO ===== */
+.bio-intro {
+  padding: 3.5rem 0;
+  border-bottom: 1px solid var(--border-light);
+  background: var(--surface);
+}
+.bio-intro__inner {
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 3rem; flex-wrap: wrap;
+}
+.bio-intro__eyebrow {
+  display: block; font-size: 0.6rem; letter-spacing: 0.3em;
+  text-transform: uppercase; color: var(--gold); margin-bottom: 0.75rem;
+}
+.bio-intro__text p {
+  font-size: 1.05rem; color: var(--text-muted);
+  max-width: 68ch; line-height: 1.75;
+}
+.bio-intro .btn { flex-shrink: 0; }
+
+/* ===== UNDER CONSTRUCTION ===== */
+.under-construction {
+  padding: 4rem 2rem;
+  text-align: center;
+  border: 1px dashed var(--border-light);
+  margin-bottom: 3rem;
+}
+.under-construction__label {
+  display: inline-block; font-size: 0.6rem; letter-spacing: 0.32em;
+  text-transform: uppercase; color: var(--gold);
+  border: 1px solid var(--gold); padding: 0.3rem 0.9rem;
+  margin-bottom: 1rem;
+}
+.under-construction__text {
+  color: var(--text-muted); font-size: 1rem;
+}
+
 /* ===== NZ MEDIA LINK BLOCK ===== */
 .nzmedia-link-block {
   margin-top: 4rem;
