@@ -130,7 +130,7 @@ p { line-height: 1.75; color: var(--text-muted); }
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  filter: brightness(0.38);
+  filter: brightness(0.48);
   transform: scale(1.03);
   transition: transform 8s ease;
 }
