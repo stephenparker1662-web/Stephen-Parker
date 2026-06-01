@@ -551,8 +551,8 @@ section { padding: 7rem 0; }
   text-transform: uppercase; color: var(--gold); margin-bottom: 0.5rem;
 }
 .nzmedia-link-block__title {
-  font-family: var(--serif); font-size: 1.5rem;
-  color: var(--text); margin-bottom: 0.5rem;
+  font-family: var(--serif); font-size: 2.2rem;
+  color: var(--text); margin-bottom: 0.5rem; line-height: 1.2;
 }
 .nzmedia-link-block__desc {
   font-size: 0.9rem; color: var(--text-muted); max-width: 52ch;
