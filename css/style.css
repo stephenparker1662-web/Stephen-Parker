@@ -147,6 +147,19 @@ p { line-height: 1.75; color: var(--text-muted); }
 }
 .hero__subtitle .sep { color: var(--text-dim); margin: 0 0.6rem; }
 .hero__ctas { display: flex; gap: 1rem; flex-wrap: wrap; }
+.hero__subnav {
+  display: flex; align-items: center; flex-wrap: wrap;
+  gap: 0.4rem; margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid rgba(255,255,255,0.12);
+}
+.hero__subnav-link {
+  font-size: 0.65rem; letter-spacing: 0.22em; text-transform: uppercase;
+  color: var(--text-dim); text-decoration: none;
+  transition: color var(--transition);
+}
+.hero__subnav-link:hover { color: var(--gold); }
+.hero__subnav .sep { color: var(--text-dim); margin: 0 0.2rem; font-size: 0.65rem; }
 .hero__scroll {
   position: absolute; bottom: 2.5rem; left: 50%;
   transform: translateX(-50%);
