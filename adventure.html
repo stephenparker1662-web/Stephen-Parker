@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Adventure — Stephen Parker</title>
-  <meta name="description" content="Travel photography and writing by Stephen Parker — adventures from New Zealand and beyond.">
+  <meta name="description" content="Adventure stories, bikepacking, mountain biking and sailing by Stephen Parker.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
@@ -33,59 +33,61 @@
     </div>
   </nav>
 
-  <!-- PAGE HERO -->
-  <header class="page-hero">
+  <!-- PAGE HEADER -->
+  <header class="adventure-header">
     <div class="container">
-      <span class="page-hero__eyebrow">Beyond the Horizon</span>
-      <h1 class="page-hero__title">Adventure</h1>
-      <p class="page-hero__desc">
-        Travel photography and writing from the road — New Zealand's wild places and the wider world beyond.
-      </p>
+      <span class="adventure-header__eyebrow">Beyond the Horizon</span>
+      <h1 class="adventure-header__title">Adventure</h1>
+      <p class="adventure-header__desc">Three stories. Two wheels, one hull, and the wild places of New Zealand.</p>
     </div>
   </header>
 
-  <!-- TRAVEL PHOTOGRAPHY -->
-  <section class="page-content">
-    <div class="container">
-      <div class="section-header section-header--split">
-        <div>
-          <span class="section-header__eyebrow">Through the Lens</span>
-          <h2 class="section-header__title">Travel Photography</h2>
+  <!-- STORY PANELS -->
+  <main>
+
+    <!-- BIKEPACKING -->
+    <a href="adventure-bikepacking.html" class="story-panel">
+      <div class="story-panel__bg" style="background-image: url('uploads/img_1877.jpg');"></div>
+      <div class="story-panel__content">
+        <div class="container">
+          <span class="story-panel__number">01</span>
+          <span class="story-panel__tag">Bikepacking &nbsp;·&nbsp; South Island</span>
+          <h2 class="story-panel__title">Bikepacking the<br>South Island of NZ</h2>
+          <p class="story-panel__excerpt">Sounds to Sounds — five hundred kilometres along the spine of the South Island, unsupported, via gravel roads, mountain passes, and the silence that only exists when the world has been left far behind.</p>
+          <span class="story-panel__cta">Read the story &rarr;</span>
         </div>
       </div>
-      <div class="photo-grid" id="adventurePhotoGrid">
-        <div class="loading">Loading photography&hellip;</div>
-      </div>
-    </div>
-  </section>
+    </a>
 
-  <!-- TRAVEL WRITING -->
-  <section>
-    <div class="container">
-      <div class="section-header section-header--split">
-        <div>
-          <span class="section-header__eyebrow">From the Road</span>
-          <h2 class="section-header__title">Travel Writing</h2>
+    <!-- MOUNTAIN BIKING -->
+    <a href="adventure-mountainbike.html" class="story-panel story-panel--alt">
+      <div class="story-panel__bg" style="background-image: url('uploads/_s8a5648.jpg');"></div>
+      <div class="story-panel__content">
+        <div class="container">
+          <span class="story-panel__number">02</span>
+          <span class="story-panel__tag">Mountain Biking &nbsp;·&nbsp; Wellington</span>
+          <h2 class="story-panel__title">Mountain Biking<br>Wellington</h2>
+          <p class="story-panel__excerpt">The city's natural amphitheatre has one of the best urban trail networks in the Southern Hemisphere. On a Santa Cruz Megatower, it becomes something extraordinary.</p>
+          <span class="story-panel__cta">Read the story &rarr;</span>
         </div>
       </div>
-      <div class="articles-grid fade-in" id="adventureWritingGrid">
-        <div class="loading">Loading stories&hellip;</div>
-      </div>
-    </div>
-  </section>
+    </a>
 
-  <!-- LIGHTBOX -->
-  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Photo viewer">
-    <button class="lightbox__close" id="lbClose" aria-label="Close">&times;</button>
-    <button class="lightbox__nav lightbox__prev" id="lbPrev" aria-label="Previous">&#8592;</button>
-    <button class="lightbox__nav lightbox__next" id="lbNext" aria-label="Next">&#8594;</button>
-    <img class="lightbox__img" id="lbImg" src="" alt="">
-    <div class="lightbox__caption">
-      <div class="lightbox__title" id="lbTitle"></div>
-      <div class="lightbox__meta" id="lbMeta"></div>
-    </div>
-    <div class="lightbox__counter" id="lbCounter"></div>
-  </div>
+    <!-- SAILING -->
+    <a href="adventure-sailing.html" class="story-panel">
+      <div class="story-panel__bg story-panel__bg--placeholder"></div>
+      <div class="story-panel__content">
+        <div class="container">
+          <span class="story-panel__number">03</span>
+          <span class="story-panel__tag">Sailing &nbsp;·&nbsp; Wellington Harbour</span>
+          <h2 class="story-panel__title">Sailing in the<br>Capital, NZ</h2>
+          <p class="story-panel__excerpt">Wellington Harbour is one of the most dramatic sailing grounds in New Zealand — and one of the most demanding. A story about wind, water, and the city seen from the sea.</p>
+          <span class="story-panel__cta">Coming soon &rarr;</span>
+        </div>
+      </div>
+    </a>
+
+  </main>
 
   <!-- FOOTER -->
   <footer class="footer">
@@ -97,8 +99,7 @@
         </div>
         <nav class="footer__links">
           <a href="photography.html" class="footer__link">Photography</a>
-          <a href="politics.html" class="footer__link">Politics</a>
-          <a href="wellington.html" class="footer__link">Wellington</a>
+          <a href="politics.html" class="footer__link">Writing</a>
           <a href="adventure.html" class="footer__link">Adventure</a>
           <a href="about.html" class="footer__link">About</a>
         </nav>
@@ -107,107 +108,6 @@
   </footer>
 
   <script src="js/main.js"></script>
-  <script src="js/gallery.js"></script>
-  <script src="js/articles.js"></script>
-  <script>
-    document.getElementById('year').textContent = new Date().getFullYear();
-
-    // Load travel photos
-    async function loadAdventurePhotos() {
-      const data = await fetchContent('content/photos.json');
-      const grid = document.getElementById('adventurePhotoGrid');
-      if (!data || !data.photos) {
-        grid.innerHTML = emptyState('No travel photos yet', 'Add photos via the admin panel.');
-        return;
-      }
-      const travel = data.photos.filter(p => p.category === 'travel');
-      if (!travel.length) {
-        grid.innerHTML = `<div class="empty-state" style="grid-column:1/-1">
-          <h3>No travel photos yet</h3>
-          <p>Add photos with the category set to <strong>Travel</strong> via the <a href="admin/" style="color:var(--gold)">admin panel</a></p>
-        </div>`;
-        return;
-      }
-      let filteredPhotos = travel;
-      grid.innerHTML = travel.map((p, i) => {
-        const src = p.image || `https://picsum.photos/seed/${encodeURIComponent(p.title)}/600/800`;
-        return `
-          <div class="photo-card fade-in" data-index="${i}">
-            <img class="photo-card__img" src="${src}" alt="${p.title}" loading="lazy">
-            <div class="photo-card__overlay">
-              <div class="photo-card__info">
-                <span class="photo-card__category">Travel</span>
-                <div class="photo-card__title">${p.title}</div>
-              </div>
-            </div>
-          </div>`;
-      }).join('');
-
-      // Animate
-      grid.querySelectorAll('.fade-in').forEach(el => {
-        const obs = new IntersectionObserver(entries => {
-          entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); obs.unobserve(e.target); } });
-        }, { threshold: 0.05 });
-        obs.observe(el);
-      });
-
-      // Lightbox
-      const lightbox = document.getElementById('lightbox');
-      const lbImg = document.getElementById('lbImg');
-      const lbTitle = document.getElementById('lbTitle');
-      const lbMeta = document.getElementById('lbMeta');
-      const lbCounter = document.getElementById('lbCounter');
-      let currentIndex = 0;
-
-      function openLightbox(index) {
-        currentIndex = index;
-        const photo = filteredPhotos[index];
-        lbImg.src = photo.image || `https://picsum.photos/seed/${encodeURIComponent(photo.title)}/1200/800`;
-        lbTitle.textContent = photo.title;
-        lbMeta.textContent = 'Travel';
-        lbCounter.textContent = `${index + 1} / ${filteredPhotos.length}`;
-        lightbox.classList.add('open');
-        document.body.style.overflow = 'hidden';
-      }
-
-      document.getElementById('lbClose').addEventListener('click', () => {
-        lightbox.classList.remove('open');
-        document.body.style.overflow = '';
-      });
-      document.getElementById('lbPrev').addEventListener('click', () => {
-        currentIndex = (currentIndex - 1 + filteredPhotos.length) % filteredPhotos.length;
-        openLightbox(currentIndex);
-      });
-      document.getElementById('lbNext').addEventListener('click', () => {
-        currentIndex = (currentIndex + 1) % filteredPhotos.length;
-        openLightbox(currentIndex);
-      });
-      lightbox.addEventListener('click', e => { if (e.target === lightbox) { lightbox.classList.remove('open'); document.body.style.overflow = ''; } });
-      document.addEventListener('keydown', e => {
-        if (!lightbox.classList.contains('open')) return;
-        if (e.key === 'Escape') { lightbox.classList.remove('open'); document.body.style.overflow = ''; }
-        if (e.key === 'ArrowLeft') { currentIndex = (currentIndex - 1 + filteredPhotos.length) % filteredPhotos.length; openLightbox(currentIndex); }
-        if (e.key === 'ArrowRight') { currentIndex = (currentIndex + 1) % filteredPhotos.length; openLightbox(currentIndex); }
-      });
-
-      grid.querySelectorAll('.photo-card').forEach(card => {
-        card.addEventListener('click', () => openLightbox(parseInt(card.dataset.index)));
-      });
-    }
-
-    // Load travel writing
-    async function loadAdventureWriting() {
-      const data = await fetchContent('content/adventure.json');
-      const grid = document.getElementById('adventureWritingGrid');
-      if (!data || !data.posts || !data.posts.length) {
-        grid.innerHTML = emptyState('No travel stories yet', 'Add stories via the admin panel.');
-        return;
-      }
-      grid.innerHTML = data.posts.map(p => renderArticleCard(p, false)).join('');
-    }
-
-    loadAdventurePhotos();
-    loadAdventureWriting();
-  </script>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>
