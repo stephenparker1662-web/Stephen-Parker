@@ -595,7 +595,7 @@ section { padding: 7rem 0; }
 .article-hero__bg {
   position: absolute; inset: 0;
   background-size: cover; background-position: center;
-  filter: brightness(0.42);
+  filter: brightness(0.58);
 }
 .article-hero__overlay {
   position: absolute; inset: 0;
