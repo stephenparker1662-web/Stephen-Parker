@@ -1,0 +1,68 @@
+{
+  "photos": [
+    {
+      "title": "Dolphins, Cook Strait",
+      "category": "nature",
+      "image": "uploads/img_3273.jpg",
+      "description": "Dolphin escort on a pristine day as we take our yacht to the South Island.",
+      "date": "2025-07-30",
+      "featured": true
+    },
+    {
+      "title": "Dolphin pod, Cook Strait",
+      "category": "nature",
+      "image": "uploads/img_3276.jpg",
+      "description": "A pod riding the bow wave on the crossing south.",
+      "featured": false
+    },
+    {
+      "title": "Rainbow over the Marlborough Sounds",
+      "category": "nature",
+      "image": "uploads/_s8a2847.jpg",
+      "description": "A rainbow drops onto the hills above a Sounds settlement after a passing shower.",
+      "featured": false
+    },
+    {
+      "title": "Stars over Wellington",
+      "category": "nature",
+      "image": "uploads/0s8a4962.jpg",
+      "description": "Fog rolls into the harbour as the city lights glow beneath a clear night sky.",
+      "featured": false
+    },
+    {
+      "title": "Mist over the harbour at dusk",
+      "category": "nature",
+      "image": "uploads/_s8a4982.cr3.jpg",
+      "description": "The last light fades as fog settles over the water below the hill suburbs.",
+      "featured": false
+    },
+    {
+      "title": "Silver fern frond",
+      "category": "nature",
+      "image": "uploads/_s8a4941.cr3.jpg",
+      "description": "A young ponga frond unfurling in the bush.",
+      "featured": false
+    },
+    {
+      "title": "Bumblebee on a dahlia",
+      "category": "nature",
+      "image": "uploads/dsc04839.jpg",
+      "description": "A bumblebee at work on a dark red dahlia in the garden.",
+      "featured": false
+    },
+    {
+      "title": "Bumblebee, pink dahlia",
+      "category": "nature",
+      "image": "uploads/dsc06207.jpg",
+      "description": "Late afternoon light on a bumblebee working a pink dahlia.",
+      "featured": false
+    },
+    {
+      "title": "Hoverfly on a daisy",
+      "category": "nature",
+      "image": "uploads/_s8a8522.cr3.jpg",
+      "description": "A hoverfly settles on a daisy in the garden.",
+      "featured": false
+    }
+  ]
+}

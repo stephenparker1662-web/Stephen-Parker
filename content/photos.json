@@ -1,14 +1,6 @@
 {
   "photos": [
     {
-      "title": "Tui in the garden",
-      "category": "nature",
-      "image": "uploads/_s8a6815.jpg",
-      "description": "A Wellington garden experiencing a wildlife resurgence. A very Wellington experience.",
-      "date": "2025-09-12",
-      "featured": true
-    },
-    {
       "title": "Duffers Saddle Sounds to Sounds bikepacking journey",
       "category": "travel",
       "image": "uploads/img_1877.jpg",
@@ -41,14 +33,6 @@
       "featured": false
     },
     {
-      "title": "Dolphins, Cook Strait",
-      "category": "nature",
-      "image": "uploads/img_3273.jpg",
-      "description": "Dolphin escort on a pristine day as we take our yacht to the South Island.",
-      "date": "2025-07-30",
-      "featured": false
-    },
-    {
       "title": "Afghanistan — Visit to Bamyian",
       "category": "photojournalism",
       "image": "uploads/j4912x3264-13349.jpg",
@@ -67,132 +51,6 @@
       "category": "travel",
       "image": "uploads/img_2990.jpg",
       "description": "Skiing the remarkable and untouched Tasman Glacier during Covid lockdown and without any international visitors. An unrepeatable set of circumstances.",
-      "featured": false
-    },
-    {
-      "title": "Nature — 1",
-      "category": "nature",
-      "image": "uploads/dsc04839.jpg",
-      "description": "",
-      "featured": false
-    },
-    {
-      "title": "Nature — 2",
-      "category": "nature",
-      "image": "uploads/dsc06207.jpg",
-      "description": "",
-      "featured": false
-    },
-    {
-      "title": "Nature — 3",
-      "category": "nature",
-      "image": "uploads/_s8a1059.jpg",
-      "description": "",
-      "featured": false
-    },
-    {
-      "title": "Nature — 4",
-      "category": "nature",
-      "image": "uploads/_s8a1878.jpg",
-      "description": "",
-      "featured": false
-    },
-    {
-      "title": "Nature — 5",
-      "category": "nature",
-      "image": "uploads/_s8a2847.jpg",
-      "description": "",
-      "featured": false
-    },
-    {
-      "title": "Nature — 6",
-      "category": "nature",
-      "image": "uploads/_s8a4941.cr3.jpg",
-      "description": "",
-      "featured": false
-    },
-    {
-      "title": "Nature — 7",
-      "category": "nature",
-      "image": "uploads/_s8a4982.cr3.jpg",
-      "description": "",
-      "featured": false
-    },
-    {
-      "title": "Nature — 8",
-      "category": "nature",
-      "image": "uploads/_s8a5648.jpg",
-      "description": "",
-      "featured": false
-    },
-    {
-      "title": "Nature — 9",
-      "category": "nature",
-      "image": "uploads/_s8a6478.jpg",
-      "description": "",
-      "featured": false
-    },
-    {
-      "title": "Nature — 10",
-      "category": "nature",
-      "image": "uploads/_s8a6930.jpg",
-      "description": "",
-      "featured": false
-    },
-    {
-      "title": "Nature — 11",
-      "category": "nature",
-      "image": "uploads/_s8a7391.jpg",
-      "description": "",
-      "featured": false
-    },
-    {
-      "title": "Nature — 12",
-      "category": "nature",
-      "image": "uploads/_s8a8242.jpg",
-      "description": "",
-      "featured": false
-    },
-    {
-      "title": "Nature — 13",
-      "category": "nature",
-      "image": "uploads/_s8a8522.cr3.jpg",
-      "description": "",
-      "featured": false
-    },
-    {
-      "title": "Nature — 14",
-      "category": "nature",
-      "image": "uploads/_s8a8731.cr3.jpg",
-      "description": "",
-      "featured": false
-    },
-    {
-      "title": "Nature — 15",
-      "category": "nature",
-      "image": "uploads/0s8a4962.jpg",
-      "description": "",
-      "featured": false
-    },
-    {
-      "title": "Nature — 16",
-      "category": "nature",
-      "image": "uploads/_s8a4463.jpg",
-      "description": "",
-      "featured": false
-    },
-    {
-      "title": "Nature — 17",
-      "category": "nature",
-      "image": "uploads/img_3276.jpg",
-      "description": "",
-      "featured": false
-    },
-    {
-      "title": "Nature — 18",
-      "category": "nature",
-      "image": "uploads/untitled-60.jpg",
-      "description": "",
       "featured": false
     },
     { "title": "Photojournalism — 1", "category": "photojournalism", "image": "uploads/dsc00546.jpg", "description": "", "featured": false },

@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>About — Stephen Parker</title>
-  <meta name="description" content="About Stephen Parker — photographer and political journalist based in Wellington, New Zealand.">
+  <title>Nature — Stephen Parker</title>
+  <meta name="description" content="Nature photography and stories by Stephen Parker — native birds, gardens and wild places of New Zealand.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@0,400;0,500;0,700;1,400;1,700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
@@ -23,9 +23,9 @@
         <li><a href="index.html" class="nav__link">Home</a></li>
         <li><a href="politics.html" class="nav__link">Writing</a></li>
         <li><a href="photography.html#photojournalism" class="nav__link">Photo journalism</a></li>
-        <li><a href="nature.html" class="nav__link">Nature</a></li>
+        <li><a href="nature.html" class="nav__link active">Nature</a></li>
         <li><a href="adventure.html" class="nav__link">Adventure</a></li>
-        <li><a href="about.html" class="nav__link active">About</a></li>
+        <li><a href="about.html" class="nav__link">About</a></li>
       </ul>
       <button class="nav__toggle" id="navToggle" aria-label="Toggle menu">
         <span></span><span></span><span></span>
@@ -36,49 +36,45 @@
   <!-- PAGE HERO -->
   <header class="page-hero">
     <div class="container">
-      <span class="page-hero__eyebrow">The Person Behind the Lens</span>
-      <h1 class="page-hero__title">About</h1>
+      <span class="page-hero__eyebrow">In the Field</span>
+      <h1 class="page-hero__title">Nature</h1>
+      <p class="page-hero__desc">
+        Native birds, gardens and wild places — stories and photography from a Wellington
+        backyard and beyond.
+      </p>
     </div>
   </header>
 
-  <!-- ABOUT CONTENT -->
+  <!-- FEATURED STORY -->
   <section class="page-content">
     <div class="container">
-      <div class="about-grid">
+      <div class="section-header">
+        <span class="section-header__eyebrow">Latest Story</span>
+        <h2 class="section-header__title">From the Garden</h2>
+      </div>
 
-        <!-- Portrait -->
-        <div class="about-photo fade-in">
-          <img src="uploads/portrait.jpg"
-               alt="Stephen Parker"
-               onerror="this.style.background='var(--surface-2)';this.removeAttribute('onerror')">
+      <a href="birds-of-ariki.html" class="featured-article fade-in" style="text-decoration:none; cursor:pointer;">
+        <img class="featured-article__img" src="uploads/_s8a7391.jpg" alt="Kaka in flight, Birds of Ariki">
+        <div class="featured-article__body">
+          <span class="featured-badge">New</span>
+          <div class="featured-article__pub">Nature Photography</div>
+          <div class="featured-article__date">Wellington, New Zealand</div>
+          <h2 class="featured-article__title">Birds of Ariki</h2>
+          <p class="featured-article__excerpt">A photographic record of the native birds calling a Wellington garden home — from t&#363;&#299; and k&#257;k&#257; to the smaller, shyer species that are easy to miss.</p>
+          <span class="btn btn--primary">Read the Story &rarr;</span>
         </div>
+      </a>
 
-        <!-- Bio -->
-        <div class="about-content fade-in">
-          <h2>Stephen Parker</h2>
-          <div class="divider"></div>
-
-          <p>
-            The best way to describe me is "Welly deep". I've lived and worked in the city for much of my life — old enough to remember the Wahine storm, and young enough to ride my Santa Cruz Megatower mountain bike through the fantastic trail network that weaves through the city's natural amphitheatre.
-          </p>
-          <p>
-            I'm also of the Beltway. I've worked in radio and television news in and out of Parliament, and held government roles in and out of the Beehive.
-          </p>
-          <p>
-            Wellington can be a windy and rugged city. It is also surrounded by bush and birdlife. There is always something to witness, document, and to tell.
-          </p>
-
-          <div class="divider"></div>
-          <h3 style="color:var(--text); margin-bottom:1rem;">Get in Touch</h3>
-          <p>
-            For commissions, editorial enquiries, or just to say hello — reach out below.
-          </p>
-          <div class="contact-links">
-            <a href="mailto:stephenparker1662@gmail.com" class="btn btn--primary">Email Me</a>
-<a href="https://instagram.com/stevie.parkz" target="_blank" rel="noopener" class="btn btn--outline">Instagram</a>
+      <!-- NZ NATURE LINK -->
+      <div class="nzmedia-link-block fade-in">
+        <div class="nzmedia-link-block__inner">
+          <div>
+            <span class="nzmedia-link-block__eyebrow">Also on this site</span>
+            <h2 class="nzmedia-link-block__title">NZ Nature</h2>
+            <p class="nzmedia-link-block__desc">A wider gallery of New Zealand nature photography — landscapes, wildlife and the small details of the natural world.</p>
           </div>
+          <a href="nz-nature.html" class="btn btn--outline">View the Gallery &rarr;</a>
         </div>
-
       </div>
     </div>
   </section>
@@ -93,6 +89,7 @@
         </div>
         <nav class="footer__links">
           <a href="photography.html" class="footer__link">Photography</a>
+          <a href="nature.html" class="footer__link">Nature</a>
           <a href="wellington.html" class="footer__link">Wellington</a>
           <a href="politics.html" class="footer__link">Politics</a>
           <a href="about.html" class="footer__link">About</a>

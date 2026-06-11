@@ -126,7 +126,8 @@ if (lightbox) {
   async function loadPhotos() {
     const grid = document.getElementById('photoGrid');
     if (!grid) return;
-    const data = await fetchContent('content/photos.json');
+    const source = grid.dataset.source || 'content/photos.json';
+    const data = await fetchContent(source);
     if (!data || !data.photos || !data.photos.length) {
       grid.innerHTML = `<div class="empty-state" style="grid-column:1/-1">
         <h3>No photos yet</h3>
