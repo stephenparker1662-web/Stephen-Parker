@@ -63,6 +63,27 @@
       "image": "uploads/_s8a8522.cr3.jpg",
       "description": "A hoverfly settles on a daisy in the garden.",
       "featured": false
+    },
+    {
+      "title": "Weta on a leaf",
+      "category": "nature",
+      "image": "uploads/_s8a7751.jpg",
+      "description": "A giant weta pauses on a flax leaf in the garden.",
+      "featured": false
+    },
+    {
+      "title": "Bumblebee on lavender",
+      "category": "nature",
+      "image": "uploads/_s8a8843.jpg",
+      "description": "A bumblebee working its way along a lavender spike.",
+      "featured": false
+    },
+    {
+      "title": "Half moon over Wellington",
+      "category": "nature",
+      "image": "uploads/_s8a9920.jpg",
+      "description": "A close view of the half moon on a clear Wellington night.",
+      "featured": false
     }
   ]
 }
