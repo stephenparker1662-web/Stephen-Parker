@@ -17,14 +17,6 @@
       "featured": true
     },
     {
-      "title": "Prime Minister in the Cook Islands",
-      "category": "photojournalism",
-      "image": "uploads/img_0525.jpg",
-      "description": "Special House of Ariki ceremony in the Cook Islands for Prime Minister Jacinda Ardern.",
-      "date": "2025-01-18",
-      "featured": false
-    },
-    {
       "title": "Jono arrives in Wellington and finishes North Island swim",
       "category": "photojournalism",
       "image": "uploads/_s8a8524-edit.jpg",
@@ -166,13 +158,6 @@
       "featured": false
     },
     {
-      "title": "Photojournalism — 19",
-      "category": "photojournalism",
-      "image": "uploads/img_0525.jpg",
-      "description": "",
-      "featured": false
-    },
-    {
       "title": "Photojournalism — 20",
       "category": "photojournalism",
       "image": "uploads/p1000419.jpg",
@@ -180,44 +165,9 @@
       "featured": false
     },
     {
-      "title": "Travel — 1",
-      "category": "travel",
-      "image": "uploads/0s8a7764.jpg",
-      "description": "",
-      "featured": false
-    },
-    {
-      "title": "Travel — 2",
-      "category": "travel",
-      "image": "uploads/0s8a7765.jpg",
-      "description": "",
-      "featured": false
-    },
-    {
-      "title": "Travel — 3",
-      "category": "travel",
-      "image": "uploads/0s8a7850.jpg",
-      "description": "",
-      "featured": false
-    },
-    {
-      "title": "Travel — 4",
-      "category": "travel",
-      "image": "uploads/0s8a7924.jpg",
-      "description": "",
-      "featured": false
-    },
-    {
       "title": "Travel — 5",
       "category": "travel",
       "image": "uploads/0s8a7948.jpg",
-      "description": "",
-      "featured": false
-    },
-    {
-      "title": "Travel — 6",
-      "category": "travel",
-      "image": "uploads/0s8a7951.jpg",
       "description": "",
       "featured": false
     },
@@ -327,13 +277,6 @@
       "featured": false
     },
     {
-      "title": "Travel — 22",
-      "category": "travel",
-      "image": "uploads/img_8677.jpg",
-      "description": "",
-      "featured": false
-    },
-    {
       "title": "Travel — 23",
       "category": "travel",
       "image": "uploads/img_8684.jpg",
@@ -383,13 +326,6 @@
       "featured": false
     },
     {
-      "title": "Travel — 30",
-      "category": "travel",
-      "image": "uploads/img_1784.jpg",
-      "description": "",
-      "featured": false
-    },
-    {
       "title": "Travel — 31",
       "category": "travel",
       "image": "uploads/img_3743.jpg",
@@ -428,13 +364,6 @@
       "title": "Travel — 36",
       "category": "travel",
       "image": "uploads/img_7064.jpg",
-      "description": "",
-      "featured": false
-    },
-    {
-      "title": "Travel — 37",
-      "category": "travel",
-      "image": "uploads/img_7135.jpg",
       "description": "",
       "featured": false
     },
@@ -523,13 +452,6 @@
       "featured": false
     },
     {
-      "title": "Photojournalism — 32",
-      "category": "photojournalism",
-      "image": "uploads/_s8a7232.jpg",
-      "description": "",
-      "featured": false
-    },
-    {
       "title": "Photojournalism — 34",
       "category": "photojournalism",
       "image": "uploads/dsc00681.jpg",
@@ -572,13 +494,6 @@
       "featured": false
     },
     {
-      "title": "Photojournalism — 44",
-      "category": "photojournalism",
-      "image": "uploads/dsc01680.jpg",
-      "description": "",
-      "featured": false
-    },
-    {
       "title": "Photojournalism — 45",
       "category": "photojournalism",
       "image": "uploads/dsc01716.jpg",
@@ -596,13 +511,6 @@
       "title": "Photojournalism — 47",
       "category": "photojournalism",
       "image": "uploads/dsc02038.jpg",
-      "description": "",
-      "featured": false
-    },
-    {
-      "title": "Photojournalism — 48",
-      "category": "photojournalism",
-      "image": "uploads/dsc02057.jpg",
       "description": "",
       "featured": false
     },
@@ -631,13 +539,6 @@
       "title": "Photojournalism — 53",
       "category": "photojournalism",
       "image": "uploads/dsc02386.jpg",
-      "description": "",
-      "featured": false
-    },
-    {
-      "title": "Photojournalism — 55",
-      "category": "photojournalism",
-      "image": "uploads/dsc02424.jpg",
       "description": "",
       "featured": false
     },
@@ -680,13 +581,6 @@
       "title": "Photojournalism — 69",
       "category": "photojournalism",
       "image": "uploads/dsc03131.jpg",
-      "description": "",
-      "featured": false
-    },
-    {
-      "title": "Photojournalism — 73",
-      "category": "photojournalism",
-      "image": "uploads/dsc03504-1.jpg",
       "description": "",
       "featured": false
     },
