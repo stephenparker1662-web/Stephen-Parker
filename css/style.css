@@ -131,7 +131,7 @@ p { line-height: 1.75; color: var(--text-muted); }
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  filter: brightness(0.48);
+  filter: brightness(0.58);
   transform: scale(1.03);
   transition: transform 8s ease;
 }
@@ -140,7 +140,7 @@ p { line-height: 1.75; color: var(--text-muted); }
   position: relative; z-index: 1;
   padding-top: var(--nav-height);
   max-width: 760px;
-  margin-left: 5vw;
+  margin-left: 2vw;
   margin-right: auto;
 }
 .hero__eyebrow {
