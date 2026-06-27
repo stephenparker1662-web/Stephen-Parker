@@ -1,12 +1,36 @@
 {
   "photos": [
     {
+      "title": "Afghanistan — Bamyian overwatch",
+      "category": "photojournalism",
+      "image": "uploads/web/j2848x4272-12603.jpg",
+      "description": "A New Zealand soldier on overwatch at Bamyian, Afghanistan.",
+      "date": "2025-06-27",
+      "featured": true
+    },
+    {
+      "title": "Protest march — mother and child",
+      "category": "photojournalism",
+      "image": "uploads/web/0s8a7340.jpg",
+      "description": "A woman holds her baby as tino rangatiratanga flags fly during the hīkoi to Parliament, Wellington.",
+      "date": "2025-06-27",
+      "featured": true
+    },
+    {
+      "title": "Tūī on flax",
+      "category": "nature",
+      "image": "uploads/web/_s8a6815.jpg",
+      "description": "A tūī feeds on flax flowers in the garden at Ariki Road, Wellington.",
+      "date": "2025-06-27",
+      "featured": true
+    },
+    {
       "title": "Duffers Saddle Sounds to Sounds bikepacking journey",
       "category": "travel",
       "image": "uploads/web/img_1877.jpg",
       "description": "Vicki Connor about to descend after riding over the Duffers Saddle, South Island, NZ",
       "date": "2025-06-21",
-      "featured": true
+      "featured": false
     },
     {
       "title": "Parliament Covid riot",
@@ -14,7 +38,7 @@
       "image": "uploads/web/dsc03136.jpg",
       "description": "The long running anti vax protest at the NZ Parliament ends in riot.",
       "date": "2025-03-04",
-      "featured": true
+      "featured": false
     },
     {
       "title": "Prime Minister in the Cook Islands",
