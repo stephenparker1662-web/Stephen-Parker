@@ -1,5 +1,5 @@
 /* =====================================================
-   articles.js — Politics articles & Wellington posts
+   articles.js — Writing page articles
    ===================================================== */
 
 // ===== POLITICS PAGE =====
@@ -49,35 +49,5 @@ async function loadPoliticsArticles() {
   }
 }
 
-// ===== WELLINGTON PAGE =====
-async function loadWellingtonPosts() {
-  const featuredEl = document.getElementById('wellingtonFeatured');
-  const gridEl = document.getElementById('wellingtonGrid');
-  if (!featuredEl && !gridEl) return;
-
-  const data = await fetchContent('content/wellington.json');
-  if (!data || !data.posts || !data.posts.length) {
-    if (featuredEl) featuredEl.innerHTML = emptyState('No stories yet', 'Add your first Wellington story via the admin panel.');
-    if (gridEl) gridEl.style.display = 'none';
-    return;
-  }
-
-  const [featuredLeft, featuredRight, ...rest] = data.posts;
-
-  if (featuredEl) {
-    let html = '';
-    if (featuredLeft) html += renderWellingtonCard(featuredLeft, true);
-    if (featuredRight) html += renderWellingtonCard(featuredRight, false);
-    featuredEl.innerHTML = html;
-  }
-
-  if (gridEl && rest.length) {
-    gridEl.innerHTML = rest.map(p => renderWellingtonCard(p, false)).join('');
-  } else if (gridEl) {
-    gridEl.style.display = 'none';
-  }
-}
-
 // Run on page load
 loadPoliticsArticles();
-loadWellingtonPosts();
