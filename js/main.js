@@ -90,18 +90,3 @@ function renderArticleCard(item, isPolitics = false) {
       </div>
     </article>`;
 }
-
-// ===== WELLINGTON CARD RENDERER =====
-function renderWellingtonCard(item, featured = false) {
-  const imgSrc = item.image || `https://picsum.photos/seed/${encodeURIComponent(item.title)}/800/600`;
-  return `
-    <article class="wellington-card${featured ? ' featured' : ''}">
-      <img class="wellington-card__img" src="${imgSrc}" alt="${item.title}" loading="lazy">
-      <div class="wellington-card__body">
-        <span class="wellington-card__date">${formatDate(item.date)}</span>
-        <h3 class="wellington-card__title">${item.title}</h3>
-        <p class="wellington-card__excerpt">${item.excerpt || ''}</p>
-        <a href="#" class="article-card__link">Read More &rarr;</a>
-      </div>
-    </article>`;
-}
