@@ -10,7 +10,8 @@ async function loadPoliticsArticles() {
 
   const data = await fetchContent('content/articles.json');
   if (!data || !data.articles || !data.articles.length) {
-    if (gridEl) gridEl.innerHTML = emptyState('No articles yet', 'Add your first article via the admin panel.');
+    // Nothing published here yet — hide quietly rather than show an empty state
+    if (gridEl) gridEl.style.display = 'none';
     if (featuredEl) featuredEl.style.display = 'none';
     return;
   }

@@ -13,6 +13,10 @@ if (lightbox) {
   const lbTitle = document.getElementById('lbTitle');
   const lbMeta = document.getElementById('lbMeta');
   const lbCounter = document.getElementById('lbCounter');
+  // Caption line for the photo's description (added here so every gallery page gets it)
+  const lbDesc = document.createElement('div');
+  lbDesc.className = 'lightbox__desc';
+  lbTitle.insertAdjacentElement('afterend', lbDesc);
 
   function openLightbox(index) {
     currentIndex = index;
@@ -21,6 +25,8 @@ if (lightbox) {
     lbImg.alt = photo.title;
     lbTitle.textContent = photo.title;
     lbMeta.textContent = photo.category ? photo.category.charAt(0).toUpperCase() + photo.category.slice(1) : '';
+    lbDesc.textContent = photo.description || '';
+    lbDesc.style.display = photo.description ? '' : 'none';
     lbCounter.textContent = `${index + 1} / ${filteredPhotos.length}`;
     lightbox.classList.add('open');
     document.body.style.overflow = 'hidden';
@@ -135,7 +141,9 @@ if (lightbox) {
       </div>`;
       return;
     }
-    allPhotos = data.photos;
+    // Optional data-exclude="nature,travel" on the grid hides those categories on this page
+    const exclude = (grid.dataset.exclude || '').split(',').map(s => s.trim()).filter(Boolean);
+    allPhotos = data.photos.filter(p => !exclude.includes(p.category));
     initFilters(allPhotos);
     renderGrid(allPhotos);
   }

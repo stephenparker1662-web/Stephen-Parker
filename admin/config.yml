@@ -32,9 +32,9 @@ collections:
               - { name: "date", label: "Date Taken", widget: "datetime", required: false }
               - { name: "featured", label: "Featured on Homepage", widget: "boolean", default: false }
 
-  # ===== BELTWAY POLITICS =====
+  # ===== WRITING — OTHER ARTICLES (shown at the top of the Writing page) =====
   - name: "politics"
-    label: "Beltway Politics"
+    label: "Writing — other articles"
     files:
       - name: "articles"
         label: "All Articles"

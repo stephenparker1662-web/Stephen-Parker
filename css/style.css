@@ -319,6 +319,7 @@ section { padding: 7rem 0; }
 }
 .lightbox__caption { margin-top: 1.5rem; text-align: center; }
 .lightbox__title { font-family: var(--serif); font-size: 1.1rem; color: var(--text); margin-bottom: 0.25rem; }
+.lightbox__desc { font-size: 0.9rem; line-height: 1.5; color: var(--text-muted); max-width: 60ch; margin: 0.35rem auto 0.5rem; }
 .lightbox__meta { font-size: 0.7rem; letter-spacing: 0.18em; text-transform: uppercase; color: var(--text-muted); }
 .lightbox__close {
   position: absolute; top: 1.5rem; right: 1.5rem;
